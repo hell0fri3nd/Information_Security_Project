@@ -1,7 +1,7 @@
 # Hospital Management System
 
 ## Installation
-In order to install the vulnerable software, the download can be found at [PHPGURUKUL](https://phpgurukul.com/hospital-management-system-in-php/)
+In order to install the vulnerable software, the download can be found at [PHPGURUKUL](https://phpgurukul.com/hospital-management-system-in-php/).
 The steps needed to install it are available on the webpage linked.
 ### Issue
 There was a problem in our installation regarding the database login: in order to resolve this problem, the hospital/hms/include/config.php file should be modified.

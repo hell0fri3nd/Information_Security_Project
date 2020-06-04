@@ -23,7 +23,7 @@ and Cristiano Lucian as project for the Information Security Course at Unibz. Th
 
 - Mac OS Catalina 10.15.04
 - Windows 10 Pro 19041.264
-- Kali Linux  2019.1a / 2020.1b
+- Kali Linux  2019.1a / 2020.1
 
 
 
